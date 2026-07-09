@@ -1,6 +1,7 @@
 <?php
 
-function mascaraCpf($cpf){
+function mascaraCpf($cpf)
+{
     
     $mascaraCpf = '***.***.***-' . substr($cpf, -5);
     return $mascaraCpf;

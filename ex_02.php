@@ -2,7 +2,8 @@
 
 // Inverter o texto
 
-function inverterTexto($texto) {
+function inverterTexto($texto) 
+{
     
     $textoInvertido = strrev($texto);
     return $textoInvertido;
